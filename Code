@@ -5,5 +5,5 @@ def EucAlg(x, y):
         print (y%(mod))
         mod = y%(mod)
         
-#Example
+#Examples
 EucAlg(1112,695)
