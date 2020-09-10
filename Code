@@ -1,7 +1,7 @@
 def EucAlg(x, y):
     mod = x%y
     print (mod)
-    while x % y != 0:
+    while mod != 0:
         print (y%(mod))
         mod = y%(mod)
         
