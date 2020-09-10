@@ -1,0 +1,9 @@
+def EucAlg(x, y):
+    mod = x%y
+    print (mod)
+    while x % y != 0:
+        print (y%(mod))
+        mod = y%(mod)
+        
+#Example
+EucAlg(1112,695)
